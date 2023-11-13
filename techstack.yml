@@ -1,0 +1,863 @@
+repo_name: ccamel/fission
+report_id: 1ee12f2e2568f2f6747d365935bc5130
+repo_type: Public
+timestamp: '2023-11-13T07:07:01+00:00'
+requested_by: life1347
+provider: github
+branch: master
+detected_tools_count: 53
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '1.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '1.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Daijiro Wachi
+  last_updated_on: 2017-09-21 12:55:45.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: environments/nodejs/Dockerfile
+  last_updated_by: rapitable
+  last_updated_on: 2017-10-05 02:05:43.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: go.mod
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-08-27 07:43:59.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: go.mod
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-04-04 14:33:26.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source: go.mod
+  last_updated_by: Soam Vasani
+  last_updated_on: 2017-01-18 07:42:00.000000000 Z
+- name: Apache Maven
+  description: 'Apache build manager for Java projects. '
+  website_url: http://maven.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source: environments/jvm/builder/Dockerfile
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-06-20 09:03:17.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source: ".codecov.yml"
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-09-16 01:20:49.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source: go.mod
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-04-04 14:33:26.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source: go.mod
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-08-23 08:17:12.000000000 Z
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source: environments/php7/Dockerfile
+  last_updated_by: Damien Goujard
+  last_updated_on: 2017-02-02 19:28:28.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: examples/ruby/parse/Gemfile
+  last_updated_by: Brendan Stennett
+  last_updated_on: 2019-03-13 14:55:26.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source: go.mod
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-08-21 07:49:41.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-07-15 08:33:26.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source: environments/dotnet20/builder/Builder.sln
+  last_updated_by: Paras Patidar
+  last_updated_on: 2019-05-15 08:35:55.000000000 Z
+- name: gevent
+  description: Coroutine network library for Python
+  website_url: http://gevent.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1772/s9Bm2Iyx_400x400.jpg
+  detection_source: environments/python/requirements.txt
+  last_updated_by: xiekeyang
+  last_updated_on: 2018-06-26 07:50:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Soam Vasani
+  last_updated_on: 2016-08-24 00:23:20.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source: environments/python/Dockerfile
+  last_updated_by: syassami
+  last_updated_on: 2017-04-21 18:15:52.000000000 Z
+- name: Monolog
+  website_url: https://github.com/Seldaek/monolog
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source: environments/php7/composer.json
+  last_updated_by: Alberto Lopez
+  last_updated_on: 2019-03-07 09:05:23.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source: pkg/logger/influxdb/Dockerfile
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2019-07-06 01:30:27.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Daijiro Wachi
+  last_updated_on: 2017-09-21 12:55:45.000000000 Z
+- name: co
+  description: Generator async control flow goodness
+  package_url: https://www.npmjs.com/co
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: environments/nodejs/package.json
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Soam Vasani
+  last_updated_on: 2016-08-24 00:23:20.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Daijiro Wachi
+  last_updated_on: 2017-09-21 12:55:45.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Daijiro Wachi
+  last_updated_on: 2017-09-21 12:55:45.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Daijiro Wachi
+  last_updated_on: 2017-09-21 12:55:45.000000000 Z
+- name: mz
+  description: Modernize node.js to current ECMAScript standards
+  package_url: https://www.npmjs.com/mz
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16589/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: environments/nodejs/package.json
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Soam Vasani
+  last_updated_on: 2016-08-24 00:23:20.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.81.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: environments/nodejs/package.json
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Gary Yeap
+  last_updated_on: 2018-09-14 06:28:04.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise-native
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise-native
+  version: 1.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16305/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: environments/nodejs/package.json
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Gary Yeap
+  last_updated_on: 2018-09-14 06:28:04.000000000 Z
+- name: underscore
+  description: JavaScript's functional programming helper library
+  package_url: https://www.npmjs.com/underscore
+  version: 1.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15882/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: environments/nodejs/package.json
+  detection_source: examples/nodejs/package.json
+  last_updated_by: Gary Yeap
+  last_updated_on: 2018-09-14 06:28:04.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary Code Execution in underscore
+    cve_id: CVE-2021-23358
+    cve_url: https://github.com/advisories/GHSA-cf4h-3jhx-xvhq
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.12.1
+- name: Microsoft.AspNetCore.Owin
+  description: ASP.NET Core component for running OWIN middleware in an ASP.NET Core
+    application, and to run ASP.NET Core middleware in an OWIN application
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Owin
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13480/default_9bed24fda7c43823a3e1a93400ac800e54f4524c.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+  vulnerabilities:
+  - name: Cookie parsing failure
+    cve_id: CVE-2020-1045
+    cve_url: https://github.com/advisories/GHSA-hxrm-9w7p-39cc
+    detected_date: Jul 29
+    severity: high
+    first_patched: 3.1.8
+- name: Microsoft.AspNetCore.Server.Kestrel
+  description: ASP.NET Core Kestrel cross-platform web server
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Server.Kestrel
+  version: 1.0.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13098/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12967/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: Nancy
+  description: Nancy is a lightweight web framework for the .Net platform, inspired
+    by Sinatra
+  package_url: https://www.nuget.org/Nancy
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13063/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: System.Runtime.Loader
+  description: Provides the System.Runtime.Loader.AssemblyLoadContext class, which
+    provides members for loading assemblies
+  package_url: https://www.nuget.org/System.Runtime.Loader
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13001/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: System.Runtime.Serialization.Json
+  description: Provides classes for serializing objects to the JavaScript Object Notation
+  package_url: https://www.nuget.org/System.Runtime.Serialization.Json
+  version: 4.0.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13204/default_42e87535b59c0cd77a89678c1c4ed24abc143f58.png
+  detection_source_url: environments/dotnet/fission-dotnet.csproj
+  detection_source: environments/dotnet20/fission-dotnet20.csproj
+  last_updated_by: Ta-Ching Chen
+  last_updated_on: 2018-02-07 13:43:51.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.10.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: examples/ruby/parse/Gemfile.lock
+  detection_source: examples/ruby/parse/Gemfile
+  last_updated_by: Brendan Stennett
+  last_updated_on: 2019-03-13 14:55:26.000000000 Z
+  vulnerabilities:
+  - name: libxml as used in Nokogiri has an infinite loop in a certain end-of-file
+      situation
+    cve_id: CVE-2020-7595
+    cve_url: https://github.com/advisories/GHSA-7553-jr98-vx47
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.8
+  - name: Nokogiri Implements libxml2 version vulnerable to use-after-free
+    cve_id: CVE-2021-3518
+    cve_url: https://github.com/advisories/GHSA-v4f8-2847-rwm7
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri affected by zlib's Out-of-bounds Write vulnerability
+    cve_id: CVE-2018-25032
+    cve_url: https://github.com/advisories/GHSA-jc36-42cf-vqwj
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.4
+  - name: Improper Restriction of XML External Entity Reference (XXE) in Nokogiri
+      on JRuby
+    cve_id: CVE-2021-41098
+    cve_url: https://github.com/advisories/GHSA-2rr5-8q37-2w7h
+    detected_date: Sep 28
+    severity: high
+    first_patched: 1.12.5
+  - name: Nokogiri Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-24836
+    cve_url: https://github.com/advisories/GHSA-crjr-9rc5-ghw8
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri Improperly Handles Unexpected Data Type
+    cve_id: CVE-2022-29181
+    cve_url: https://github.com/advisories/GHSA-xh29-r2w5-wx8m
+    detected_date: May 24
+    severity: high
+    first_patched: 1.13.6
+  - name: Nokogiri contains libxml Out-of-bounds Write vulnerability
+    cve_id: CVE-2021-3517
+    cve_url: https://github.com/advisories/GHSA-jw9f-hh49-cvp9
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri implementation of libxslt vulnerable to heap corruption
+    cve_id: CVE-2019-5815
+    cve_url: https://github.com/advisories/GHSA-vmfx-gcfq-wvm2
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free
+      vulnerability
+    cve_id: CVE-2019-18197
+    cve_url: https://github.com/advisories/GHSA-242x-7cm6-4w8j
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Uninitialized read in Nokogiri gem
+    cve_id: CVE-2019-13117
+    cve_url: https://github.com/advisories/GHSA-4hm9-844j-jmxp
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri has vulnerable dependencies on libxml2 and libxslt
+    cve_id: CVE-2021-30560
+    cve_url: https://github.com/advisories/GHSA-59gp-qqm7-cw4j
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.2
+  - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
+    detected_date: May 19
+    severity: high
+    first_patched: 1.13.5
+  - name: Vulnerable dependencies in Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.13.2
+  - name: Denial of Service (DoS) in Nokogiri on JRuby
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: libxslt Type Confusion vulnerability that affects Nokogiri
+    cve_id: CVE-2019-13118
+    cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
+    cve_id: CVE-2020-26247
+    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.0
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
+    cve_id: CVE-2021-3537
+    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 1.11.4
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: XML Injection in Xerces Java affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.13.4
+  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.4
+- name: rack
+  description: Rack provides a minimal, modular and adaptable interface for developing
+    web applications in Ruby
+  package_url: https://rubygems.org/rack
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18839/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: environments/ruby/Gemfile.lock
+  detection_source: environments/ruby/Gemfile
+  last_updated_by: S. Brent Faulkner
+  last_updated_on: 2017-06-17 17:48:05.000000000 Z
+  vulnerabilities:
+  - name: Possible shell escape sequence injection vulnerability in Rack
+    cve_id: CVE-2022-30123
+    cve_url: https://github.com/advisories/GHSA-wq4h-7r42-5hrr
+    detected_date: May 28
+    severity: critical
+    first_patched: 2.0.9.1
+  - name: Rack has possible DoS Vulnerability in Multipart MIME parsing
+    cve_id: CVE-2023-27530
+    cve_url: https://github.com/advisories/GHSA-3h57-hmj3-gj3p
+    detected_date: Mar 9
+    severity: high
+    first_patched: 2.0.9.3
+  - name: Rack allows Percent-encoded cookies to overwrite existing prefixed cookie
+      names
+    cve_id: CVE-2020-8184
+    cve_url: https://github.com/advisories/GHSA-j6w9-fv6q-3q52
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.1.4
+  - name: Denial of service via header parsing in Rack
+    cve_id: CVE-2022-44570
+    cve_url: https://github.com/advisories/GHSA-65f5-mfpf-vfhj
+    detected_date: Jan 19
+    severity: high
+    first_patched: 2.0.9.2
+  - name: Denial of Service Vulnerability in Rack Multipart Parsing
+    cve_id: CVE-2022-30122
+    cve_url: https://github.com/advisories/GHSA-hxqx-xwvh-44m2
+    detected_date: May 28
+    severity: high
+    first_patched: 2.0.9.1
+  - name: Directory traversal in Rack::Directory app bundled with Rack
+    cve_id: CVE-2020-8161
+    cve_url: https://github.com/advisories/GHSA-5f9h-9pjv-v6j7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.1.3
+  - name: Possible Information Leak / Session Hijack Vulnerability in Rack
+    cve_id: CVE-2019-16782
+    cve_url: https://github.com/advisories/GHSA-hrqr-hxpp-chr3
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.8
+  - name: Denial of Service Vulnerability in Rack Content-Disposition parsing
+    cve_id: CVE-2022-44571
+    cve_url: https://github.com/advisories/GHSA-93pm-5p5f-3ghx
+    detected_date: Jan 19
+    severity: low
+    first_patched: 2.0.9.2
+  - name: Denial of service via multipart parsing in Rack
+    cve_id: CVE-2022-44572
+    cve_url: https://github.com/advisories/GHSA-rqv2-275x-2jq5
+    detected_date: Jan 19
+    severity: low
+    first_patched: 2.0.9.2
+  - name: Possible Denial of Service Vulnerability in Rack's header parsing
+    cve_id: CVE-2023-27539
+    cve_url: https://github.com/advisories/GHSA-c6qg-cjj8-47qp
+    detected_date: Mar 16
+    severity: low
+    first_patched: 2.2.6.4
+- name: thin
+  description: A thin and fast web server
+  package_url: https://rubygems.org/thin
+  license: GPL-2.0+,Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18900/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source: environments/ruby/Gemfile
+  last_updated_by: Brendan Stennett
+  last_updated_on: 2019-03-13 14:55:26.000000000 Z
